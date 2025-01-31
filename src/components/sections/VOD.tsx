@@ -21,13 +21,13 @@ const streamingServices: StreamingService[] = [
   {
     name: "Disney+",
     logo: "/logos/streaming/disney.png",
-    description: "L'univers Disney, Marvel et Star Wars",
+    description: "L&apos;univers Disney, Marvel et Star Wars",
     features: ["Contenus familiaux", "IMAX Enhanced", "4 écrans simultanés"]
   },
   {
     name: "Prime Video",
     logo: "/logos/streaming/prime.png",
-    description: "Le meilleur d'Amazon",
+    description: "Le meilleur d&apos;Amazon",
     features: ["Sports en direct", "X-Ray", "HDR10+"]
   },
   {
