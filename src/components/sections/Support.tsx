@@ -1,12 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import React from 'react';
-
-const fadeIn = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0 }
-};
 
 export default function Support() {
   return (

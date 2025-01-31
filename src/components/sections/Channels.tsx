@@ -89,18 +89,6 @@ const item = {
   show: { opacity: 1, y: 0 }
 };
 
-const ghostVariants = {
-  float: {
-    y: [0, -10, 0],
-    rotate: [-5, 5, -5],
-    transition: {
-      duration: 4,
-      repeat: Infinity,
-      ease: "easeInOut"
-    }
-  }
-};
-
 export default function Channels() {
   return (
     <section className="bg-zinc-900 py-24 relative overflow-hidden">
