@@ -237,14 +237,17 @@ export default function VOD() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/0 via-blue-500/0 to-purple-500/0 group-hover:from-purple-500/5 group-hover:via-blue-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-xl"></div>
               <div className="relative z-10">
-                <div className="image-wrapper h-12 mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <Image
-                    src={service.logo}
-                    alt={service.name}
-                    width={120}
-                    height={48}
-                    style={{ objectFit: "contain" }}
-                  />
+                <div className="relative w-full h-16 flex items-center justify-center mb-4">
+                  <div className="w-32 h-12 relative">
+                    <Image
+                      src={service.logo}
+                      alt={service.name}
+                      fill
+                      sizes="128px"
+                      className="object-contain"
+                      priority
+                    />
+                  </div>
                 </div>
                 <h3 className="text-lg font-semibold mb-2 text-white group-hover:text-white transition-colors duration-300">
                   {service.name}
